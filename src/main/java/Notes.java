@@ -31,6 +31,10 @@ class Notes {
 
 		// System.out.println(arr);  //DONT DO THIS, this prints out the refernce, not the value.  we don't care about the references.
 		
+		for (int i = 0; i < arr.length; i++) {
+			System.out.println(arr[i]);
+		}
+
 		//modifying arrays - overwriting a value using its key
 
 		System.out.println(arr[6]);
