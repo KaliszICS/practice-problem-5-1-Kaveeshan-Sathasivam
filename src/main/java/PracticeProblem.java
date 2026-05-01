@@ -1,3 +1,9 @@
+/*File: Practice Problem 5.1
+Author: Kaveeshan Sathasivam
+Date Created: May 1st, 2026
+Date Last Modified: May 1st, 2026
+ */
+
 public class PracticeProblem {
 
     public static int[] createIntArray() {
