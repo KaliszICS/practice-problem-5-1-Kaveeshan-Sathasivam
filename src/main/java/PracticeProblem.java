@@ -1,9 +1,3 @@
-/* File: Practice Problem 5.1
-Author: Kaveeshan Sathasivam
-Date Created: May 1st, 2026
-Date Last Modified: May 1st, 2026
- */
-
 public class PracticeProblem {
 
     public static int[] createIntArray() {
@@ -27,19 +21,10 @@ public class PracticeProblem {
         return arr[n];
     }
 
-    public static void replaceElement(int n, double value, double[] arr) {
+    // Now returns the modified array instead of void
+    public static double[] replaceElement(int n, double value, double[] arr) {
         arr[n] = value;
+        return arr;
     }
 
- 
-    public static void main(String[] args) {
-        int[] intArr = createIntArray();
-
-        String[] strArr = createArray("one", "two", "three", "four");
-        System.out.println(getElement(2, strArr)); 
-
-        double[] doubleArr = {1.1, 2.2, 3.3};
-        replaceElement(1, 9.9, doubleArr);
-        System.out.println(doubleArr[1]); 
-    }
 }
